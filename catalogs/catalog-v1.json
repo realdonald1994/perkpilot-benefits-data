@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "publishedOn": "2026-10-21",
+  "cards": [
+    {
+      "id": "amex-ca-platinum",
+      "issuer": "American Express",
+      "name": "The Platinum Card · Canada",
+      "aliases": [
+        "Amex",
+        "加拿大白金卡",
+        "运通",
+        "美國運通",
+        "白金",
+        "Platine"
+      ],
+      "country": "CA",
+      "currency": "CAD",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/benefits/the-platinum-card/",
+      "verification": "verified",
+      "benefits": [
+        {
+          "id": "annual-travel-credit",
+          "name": {
+            "zh": "年度旅行额度",
+            "en": "Annual travel credit",
+            "fr": "Crédit voyage annuel",
+            "es": "Crédito anual de viaje"
+          },
+          "type": "credit",
+          "allowance": 200,
+          "unit": "CAD",
+          "currency": "CAD",
+          "resetRule": {
+            "cadence": "anniversary",
+            "anchor": "openedOn"
+          },
+          "conditions": {
+            "zh": "主卡每开卡周年年一次；通过 Amex Travel 单笔预订至少 CAD 200，使用此卡付款。不结转；取消后不恢复。账户须正常。",
+            "en": "Basic card only; one booking of CAD 200+ through Amex Travel per membership year. Pay with this card. No rollover or reinstatement after cancellation. Account in good standing.",
+            "fr": "Carte principale : une réservation de 200 CAD minimum via Amex Travel par année anniversaire. Payer avec cette carte. Aucun report ni rétablissement après annulation. Compte en règle.",
+            "es": "Tarjeta principal: una reserva de al menos 200 CAD mediante Amex Travel por año de membresía. Pagar con esta tarjeta. Sin acumulación ni devolución tras cancelar. Cuenta al corriente."
+          },
+          "requiresEnrollment": false,
+          "sourceUrl": "https://www.americanexpress.com/en-ca/benefits/travel/the-platinum-card/",
+          "lastVerifiedOn": "2026-10-21",
+          "effectiveFrom": null,
+          "verification": "verified",
+          "trackable": true
+        },
+        {
+          "id": "annual-dining-credit",
+          "name": {
+            "zh": "年度餐饮额度",
+            "en": "Annual dining credit",
+            "fr": "Crédit restauration annuel",
+            "es": "Crédito anual de restaurantes"
+          },
+          "type": "credit",
+          "allowance": 200,
+          "unit": "CAD",
+          "currency": "CAD",
+          "resetRule": {
+            "cadence": "calendarYear",
+            "anchor": "calendar"
+          },
+          "conditions": {
+            "zh": "需先注册；主卡在指定加拿大餐厅单笔消费至少 CAD 200（含税和小费），每自然年一次。餐饮须单独入账，酒店挂房账可能不合资格。",
+            "en": "Enroll first. Basic card: one CAD 200+ transaction, including tax and tip, at an eligible Canadian restaurant each calendar year. Room charges may not qualify.",
+            "fr": "Inscription requise. Carte principale : une transaction de 200 CAD minimum, taxes et pourboire inclus, dans un restaurant canadien admissible par année civile. Éviter la facturation à la chambre.",
+            "es": "Inscripción previa. Tarjeta principal: una compra de al menos 200 CAD, impuestos y propina incluidos, en un restaurante canadiense elegible por año natural. Cargos a la habitación pueden quedar excluidos."
+          },
+          "requiresEnrollment": true,
+          "sourceUrl": "https://www.americanexpress.com/en-ca/benefits/the-platinum-card/",
+          "lastVerifiedOn": "2026-10-21",
+          "effectiveFrom": null,
+          "verification": "verified",
+          "trackable": true
+        }
+      ]
+    },
+    {
+      "id": "amex-us-gold",
+      "issuer": "American Express",
+      "name": "American Express Gold Card · United States",
+      "aliases": [
+        "Amex",
+        "美国金卡",
+        "运通",
+        "美國運通",
+        "Gold",
+        "Or",
+        "Oro"
+      ],
+      "country": "US",
+      "currency": "USD",
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/gold/explore-benefits",
+      "verification": "verified",
+      "benefits": [
+        {
+          "id": "monthly-dining-credit",
+          "name": {
+            "zh": "每月餐饮额度",
+            "en": "Monthly dining credit",
+            "fr": "Crédit restauration mensuel",
+            "es": "Crédito mensual de restaurantes"
+          },
+          "type": "credit",
+          "allowance": 10,
+          "unit": "USD",
+          "currency": "USD",
+          "resetRule": {
+            "cadence": "monthly",
+            "anchor": "calendar"
+          },
+          "conditions": {
+            "zh": "需先注册；用 Gold Card 在 Grubhub（含 Seamless）、Buffalo Wild Wings、Five Guys、The Cheesecake Factory 或 Wonder 付款，每月最多 USD 10 账单返还。",
+            "en": "Enroll first. Pay with Gold at Grubhub (including Seamless), Buffalo Wild Wings, Five Guys, The Cheesecake Factory or Wonder; up to USD 10 in monthly statement credits.",
+            "fr": "Inscription requise. Payer avec Gold chez Grubhub (Seamless inclus), Buffalo Wild Wings, Five Guys, The Cheesecake Factory ou Wonder : jusqu’à 10 USD de crédit mensuel.",
+            "es": "Inscripción previa. Pagar con Gold en Grubhub (incluye Seamless), Buffalo Wild Wings, Five Guys, The Cheesecake Factory o Wonder: hasta 10 USD mensuales de abono."
+          },
+          "requiresEnrollment": true,
+          "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/gold/explore-benefits",
+          "lastVerifiedOn": "2026-10-21",
+          "effectiveFrom": null,
+          "verification": "verified",
+          "trackable": true
+        }
+      ]
+    }
+  ]
+}

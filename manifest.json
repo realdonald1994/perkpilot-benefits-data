@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "publishedAt": "2026-10-21T00:00:00Z",
+  "dataUrl": "catalogs/catalog-v1.json",
+  "checksum": {
+    "algorithm": "SHA-256",
+    "value": "aa864cbad49065a6560bd51bf155eba79f1f36945b268b3376f9391b2485d815"
+  }
+}
